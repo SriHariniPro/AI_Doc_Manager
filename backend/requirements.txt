@@ -1,0 +1,11 @@
+flask
+flask-cors
+spacy
+nltk
+PyMuPDF
+pytesseract
+Pillow
+python-docx
+sentence-transformers
+chromadb
+werkzeug
