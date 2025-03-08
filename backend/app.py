@@ -1,11 +1,4 @@
-import sys
-import pysqlite3
 
-# Override the default sqlite3 module with pysqlite3
-sys.modules["sqlite3"] = pysqlite3
-import sqlite3
-
-print("SQLite Version:", sqlite3.sqlite_version)  # Optional verification
 
 from flask import Flask
 from flask_cors import CORS
