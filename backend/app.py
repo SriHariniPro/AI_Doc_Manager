@@ -1,4 +1,10 @@
+import sys
+import pysqlite3
 
+sys.modules["sqlite3"] = pysqlite3
+
+import sqlite3
+print(sqlite3.sqlite_version) 
 
 from flask import Flask
 from flask_cors import CORS
